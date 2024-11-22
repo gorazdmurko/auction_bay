@@ -2,13 +2,25 @@
 
 	1. make 'auction_bay' directory
 	2. cd into directory
-	3. run => nest new auction_bay_backend (which creates nest.js project)
-	4. run => npm create vite@latest auction_bay_frontend (which creates react project)
-	5. cd in 'backend' folder and delete .git
+	3. run 'nest new auction_bay_backend' (which creates nest.js project)
+	4. run npm create vite@latest 'auction_bay_frontend' (which creates react project)
+	5. cd in backend folder and delete .git
 	6. make sure that both backend & frontend folders contain their own .gitignore files
 	7. cd into root folder (auction_bay)
 	8. run => git init
 	9. run => git add . (or git add -A)
 	10. run => git commit -a -m "initial commit"
 	11. run => git remote add origin <<origin-link>>   ... (after new repository creation on github)
-	12. run => git push -u -f origin master
+
+	
+
+	ENVIRONMENT
+		=> npm i @nestjs/config@3.2.2
+		=> npm i joi@17.12.2
+
+
+	POSTGRES	=> npm i typeorm@0.3.20 @nestjs/typeorm@10.0.2 pg@8.11.5
+	SWAGGER 	=> npm i @nestjs/swagger@7.3.0
+	COMPODOC	=> npm i @compodoc/compodoc@1.1.23
+	SERVE-STATIC	=> npm install @nestjs/serve-static
+	CLASS-VALIDATOR	=> npm install class-validator class-transformer
