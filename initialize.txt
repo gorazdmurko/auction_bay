@@ -2,9 +2,9 @@
 
 	1. make 'auction_bay' directory
 	2. cd into directory
-	3. run 'nest new auction_bay_backend' (which creates nest.js project)
-	4. run npm create vite@latest 'auction_bay_frontend' (which creates react project)
-	5. cd in backend folder and delete .git
+	3. run => nest new auction_bay_backend (which creates nest.js project)
+	4. run => npm create vite@latest auction_bay_frontend (which creates react project)
+	5. cd in 'backend' folder and delete .git
 	6. make sure that both backend & frontend folders contain their own .gitignore files
 	7. cd into root folder (auction_bay)
 	8. run => git init
