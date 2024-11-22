@@ -11,3 +11,4 @@
 	9. run => git add . (or git add -A)
 	10. run => git commit -a -m "initial commit"
 	11. run => git remote add origin <<origin-link>>   ... (after new repository creation on github)
+	12. run => git push -u -f origin master
